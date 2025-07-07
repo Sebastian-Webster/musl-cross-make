@@ -7,12 +7,7 @@
 # There is no default TARGET; you must select one here or on the make
 # command line. Some examples:
 
-# TARGET = i486-linux-musl
-# TARGET = x86_64-linux-musl
-# TARGET = arm-linux-musleabi
-# TARGET = arm-linux-musleabihf
-# TARGET = sh2eb-linux-muslfdpic
-# ...
+TARGET = aarch64-linux-musl
 
 # By default, cross compilers are installed to ./output under the top-level
 # musl-cross-make directory and can later be moved wherever you want them.
